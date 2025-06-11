@@ -18,7 +18,7 @@ public class DropdownList_Test {
 
     @BeforeTest
     public void setUp() {
-        System.setProperty("webdriver.chome.driver", "D:\\CHROMEDRIVER\\TESTCASE\\untitled\\src\\main\\resources\\Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\CHROMEDRIVER\\TESTCASE\\untitled\\src\\main\\resources\\Drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         ddLPage = new DropdownList_Page(driver);
