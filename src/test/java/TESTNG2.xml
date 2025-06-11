@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SearchSuite">
+    <test name="search tank">
+    <classes>
+        <class name="com.reportExample.searchTest1"/>
+    </classes>
+    </test>
+    <test name="search Hoodie">
+        <classes>
+            <class name="com.reportExample.searchTest2"/>
+        </classes>
+    </test>
+    <test name="search backpack">
+        <classes>
+            <class name="com.reportExample.searchTest3"/>
+        </classes>
+    </test>
+</suite>
