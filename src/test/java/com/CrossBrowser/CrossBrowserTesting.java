@@ -29,7 +29,7 @@ public class CrossBrowserTesting {
     @Parameters({"URL","BrowserType"})
     public void beforeClass(String url, String browserType){
         if (browserType.equalsIgnoreCase("Chrome")){
-            System.setProperty("webdriver.chome.driver", "D:\\CHROMEDRIVER\\TESTCASE\\untitled\\src\\main\\resources\\Drivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "D:\\CHROMEDRIVER\\TESTCASE\\untitled\\src\\main\\resources\\Drivers\\chromedriver.exe");
             driver = new ChromeDriver();
         }
         else if (browserType.equalsIgnoreCase("Edge")){
